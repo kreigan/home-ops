@@ -32,7 +32,7 @@ spec:
           app:
             image:
               repository: ghcr.io/taxel/plextraktsync
-              tag: 0.31.14
+              tag: 0.32.0
             args:
               - watch
             env:
@@ -50,9 +50,9 @@ spec:
             resources:
               requests:
                 cpu: 5m
-                memory: 101M
+                memory: 128M
               limits:
-                memory: 101M
+                memory: 512M
 
     persistence:
       config:
