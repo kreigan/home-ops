@@ -94,7 +94,7 @@ spec:
     route:
       app:
         hostnames:
-          - scrypted.bjw-s.dev
+          - scrypted.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

@@ -56,7 +56,7 @@ spec:
   listenersServiceTemplate:
     metadata:
       annotations:
-        external-dns.alpha.kubernetes.io/hostname: "mqtt.bjw-s.dev."
+        external-dns.alpha.kubernetes.io/hostname: "mqtt.kreigan.com."
         lbipam.cilium.io/ips: 10.1.1.135
     spec:
       type: LoadBalancer

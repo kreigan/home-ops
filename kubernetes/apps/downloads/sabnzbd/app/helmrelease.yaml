@@ -144,7 +144,7 @@ spec:
     route:
       app:
         hostnames:
-          - sabnzbd.bjw-s.dev
+          - sabnzbd.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

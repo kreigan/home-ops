@@ -202,7 +202,7 @@ spec:
     route:
       app:
         hostnames:
-          - qbittorrent.bjw-s.dev
+          - qbittorrent.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system
