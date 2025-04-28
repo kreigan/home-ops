@@ -81,7 +81,7 @@ spec:
     route:
       app:
         hostnames:
-          - go2rtc.bjw-s.dev
+          - go2rtc.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

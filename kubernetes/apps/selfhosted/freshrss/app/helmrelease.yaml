@@ -33,7 +33,7 @@ spec:
               tag: 1.26.2-alpine
             env:
               CRON_MIN: "*"
-              DOMAIN: freshrss.bjw-s.dev
+              DOMAIN: freshrss.kreigan.com
               LISTEN: 8080
             probes:
               liveness:
@@ -70,7 +70,7 @@ spec:
     route:
       app:
         hostnames:
-          - freshrss.bjw-s.dev
+          - freshrss.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

@@ -124,7 +124,7 @@ spec:
     route:
       app:
         hostnames:
-          - hass.bjw-s.dev
+          - hass.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

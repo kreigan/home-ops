@@ -87,7 +87,7 @@ spec:
     route:
       app:
         hostnames:
-          - bazarr.bjw-s.dev
+          - bazarr.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

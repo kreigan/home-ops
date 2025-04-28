@@ -44,7 +44,7 @@ spec:
               N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: false
               N8N_PROTOCOL: "https"
               N8N_PORT: &port 8080
-              N8N_HOST: &hostName n8n.bjw-s.dev
+              N8N_HOST: &hostName n8n.kreigan.com
               N8N_LOG_LEVEL: info
               N8N_LOG_OUTPUT: console
               N8N_ENCRYPTION_KEY:
@@ -88,7 +88,7 @@ spec:
                 port: *port
       webhooks:
         hostnames:
-          - n8n-webhook.bjw-s.dev
+        - n8n-webhook.kreigan.com
         parentRefs:
           - name: external
             namespace: kube-system
