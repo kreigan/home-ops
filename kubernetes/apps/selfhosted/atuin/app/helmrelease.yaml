@@ -78,7 +78,7 @@ spec:
     route:
       app:
         hostnames:
-          - atuin.bjw-s.dev
+          - atuin.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

@@ -157,7 +157,7 @@ spec:
     route:
       app:
         hostnames:
-          - manyfold.bjw-s.dev
+          - manyfold.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

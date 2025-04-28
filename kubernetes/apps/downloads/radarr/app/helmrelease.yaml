@@ -101,7 +101,7 @@ spec:
     route:
       app:
         hostnames:
-          - radarr.bjw-s.dev
+          - radarr.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

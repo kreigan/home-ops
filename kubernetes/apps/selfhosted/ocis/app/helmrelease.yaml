@@ -56,7 +56,7 @@ spec:
               OCIS_LOG_COLOR: true
               OCIS_LOG_LEVEL: info
               OCIS_LOG_PRETTY: true
-              OCIS_URL: https://files.bjw-s.dev
+              OCIS_URL: https://files.kreigan.com
               PROXY_TLS: false
             envFrom:
               - secretRef:
@@ -110,7 +110,7 @@ spec:
     route:
       app:
         hostnames:
-          - files.bjw-s.dev
+          - files.kreigan.com
         parentRefs:
           - name: external
             namespace: kube-system

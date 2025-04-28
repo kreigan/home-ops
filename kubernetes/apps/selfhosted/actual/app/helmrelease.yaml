@@ -76,7 +76,7 @@ spec:
     route:
       app:
         hostnames:
-          - actual.bjw-s.dev
+          - actual.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system

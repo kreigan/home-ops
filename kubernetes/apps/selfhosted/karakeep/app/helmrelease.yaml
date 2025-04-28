@@ -54,7 +54,7 @@ spec:
                   secretKeyRef:
                     name: karakeep-secret
                     key: encryption_key
-              NEXTAUTH_URL: https://karakeep.bjw-s.dev
+              NEXTAUTH_URL: https://karakeep.kreigan.com
               DISABLE_NEW_RELEASE_CHECK: true
               COREPACK_INTEGRITY_KEYS: 0
             probes:
@@ -170,7 +170,7 @@ spec:
     route:
       app:
         hostnames:
-          - karakeep.bjw-s.dev
+          - karakeep.kreigan.com
         parentRefs:
           - name: internal
             namespace: kube-system
