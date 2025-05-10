@@ -15,8 +15,8 @@ spec:
         name: bjw-s-labs
         namespace: flux-system
   dependsOn:
-    - name: rook-ceph-cluster
-      namespace: rook-ceph
+    - name: openebs
+      namespace: openebs
   values:
     controllers:
       n8n:
@@ -88,7 +88,7 @@ spec:
                 port: *port
       webhooks:
         hostnames:
-        - n8n-webhook.kreigan.com
+          - n8n-webhook.kreigan.com
         parentRefs:
           - name: external
             namespace: kube-system
