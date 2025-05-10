@@ -11,7 +11,6 @@ resources:
   - ./irqbalance/ks.yaml
   - ./reloader/ks.yaml
   - ./spegel/ks.yaml
-  - ./volsync/ks.yaml
 components:
   - ../../components/namespace
   - ../../components/flux/alerts
