@@ -24,11 +24,6 @@ spec:
       namespace: external-secrets
     - name: emqx-cluster
       namespace: database
-    - name: volsync
-      namespace: system
-  components:
-    - ../../../../components/volsync
   postBuild:
     substitute:
       APP: *appname
-      VOLSYNC_CLAIM: zigbee2mqtt-data
