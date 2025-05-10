@@ -4,11 +4,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: system
 resources:
-  - ./descheduler/ks.yaml
   - ./fstrim/ks.yaml
   - ./generic-device-plugin/ks.yaml
-  - ./intel-device-plugins/ks.yaml
-  - ./irqbalance/ks.yaml
   - ./reloader/ks.yaml
   - ./spegel/ks.yaml
 components:
