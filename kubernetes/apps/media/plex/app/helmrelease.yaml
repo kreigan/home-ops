@@ -101,8 +101,8 @@ spec:
               - path: /config/Library/Application Support/Plex Media Server/Logs
       nfs-nas-media:
         type: nfs
-        server: gladius.bjw-s.internal
-        path: /mnt/tank/Media
+        server: storage.internal.kreigan.com
+        path: /storage/media
         advancedMounts:
           plex:
             app:

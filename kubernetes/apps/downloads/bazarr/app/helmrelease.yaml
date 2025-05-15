@@ -79,8 +79,8 @@ spec:
         existingClaim: bazarr-config
       media:
         type: nfs
-        server: gladius.bjw-s.internal
-        path: /mnt/tank/Media
+        server: storage.internal.kreigan.com
+        path: /storage/media
         globalMounts:
           - path: /data/nas-media
 
