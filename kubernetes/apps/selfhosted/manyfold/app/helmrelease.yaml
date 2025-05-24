@@ -41,7 +41,7 @@ spec:
               - -c
             args:
               - |
-                chmod o-rwx /app/tmp /app/log /tmp
+                chmod o-rwx /tmp
             securityContext:
               runAsUser: 0
 
@@ -49,7 +49,7 @@ spec:
           main:
             image:
               repository: ghcr.io/bjw-s-labs/manyfold
-              tag: 0.104.1
+              tag: 0.111.1@sha256:a275b9afbe320f536c4088637976e3233545f5147a89b9f2be89dc857c83b50d
             env:
               DATABASE_URL: sqlite3:/data/database/manyfold.sqlite3
               MULTIUSER: false
@@ -141,7 +141,6 @@ spec:
               - path: /data/libraries/main
                 subPath: libraries/main
       tmpfs:
-        enabled: true
         type: emptyDir
         advancedMounts:
           manyfold:
@@ -165,4 +164,4 @@ spec:
         rules:
           - backendRefs:
               - identifier: app
-                port: *port
+                port: *httpPort
