@@ -120,7 +120,7 @@ spec:
         hostnames:
           - plex.kreigan.com
         parentRefs:
-          - name: internal
+          - name: external
             namespace: kube-system
             sectionName: https
         rules:
